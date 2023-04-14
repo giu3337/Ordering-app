@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    box-sizing: border-box;
+    background-color: #282828;
+}
+
+/* Layout */
+
+header{
+    width: 600px;
+    height: 161px;
+    background-image: url(./images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+    background-position: cover;
+    color: #ffffff;
+}
+
+
+.container-app{
+    width: 600px;
+    height: 1170px;
+    background-color: whitesmoke;
+
+    margin: 0 auto;
+   
+    
+}
+
+.container-app-after-pay{
+   
+     background: linear-gradient(  white,lightgrey, lightgrey, lightgrey, lightgrey, white );
+}
+
+/* Container Menu */
+
+
+
+.item-container{
+   margin-left: -30px;
+    height: 200px;
+    width: 300px;
+  
+    
+}
+
+.box-size{
+    width: 508px;
+    height: 140px;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-size{
+    width: 70px;
+    height: 89px;
+    /* opacity: 72%; */
+    
+}
+
+
+.box-size button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1.5px #DEDEDE solid;
+    font-size: 25px;
+    align-items: center;
+    color:  #3C3C3C;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    margin-top: 5px;
+    
+}
+
+.ingredients{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:  #8B8B8B;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
+
+/* Order Modal */
+
+.your-order-modal{
+    width: 508px;
+    height: 319px;
+    margin: 0 auto;
+    display: none;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+    
+}
+
+.complete-order-btn{
+    background-color: #16DB99;
+    height: 60px;
+    width: 508px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 60px;
+    border-style: none;
+    
+}
+
+hr{
+    border: 1px solid #282828;
+    margin-bottom: -10px;
+    margin-top: 40px;
+}
+
+
+
+
+/* pay-modal */
+
+.pay-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    height: 530px;
+    width: 510px;
+    border-radius: 4px;
+    margin: auto auto;
+   
+    display: none;
+}
+
+.paying-form input{
+    display: block;
+    width: 475.91px;
+    height: 71.3px;
+    border: 1.3px solid #757575;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.paying-input::placeholder{
+    text-indent: 30px;
+}
+
+
+
+.pay-modal-title{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin: 43px 0;
+}
+
+
+.pay-btn{
+    display: block;
+    width: 475.91px;
+    height: 71.3px;
+    color: #FFFFFF;
+    background: #16DB99;
+    border-radius: 3.88991px;
+    margin: 0 auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: none;
+}
+
+/* done-order-modal */
+
+
+.done-order-modal{
+    width: 505px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: none;
+}
+
+
+.done-order-text{
+    font-weight: 400;
+    font-size: 32px;
+    color: #065F46;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+
+/* Typography */
+
+h1{
+    margin-top: 0;
+    font-size: 39px;
+    padding: 46px 0 0 46px;
+}
+
+
+
+h3{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 23px;
+    margin-left: 46px;
+    margin-top: -19px;
+
+}
+
+.price{
+    margin: 8px 0;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.modal-container .remove-order{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: 400;
+    color: #BBBBBB;
+    background-color: transparent;
+    border: none;
+    
+    
+}
+
+.modal-order-title{
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.modal-style{
+    font-weight: 400;
+    font-size: 28px;
+    
+
+}
+
+.modal-style-total{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+.modal-style-number{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 37px;
+    
+}
+
+.modal-style-number-total{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Rate Div */
+
+.rating {
+    display: none;
+    /* display: inline-block; */
+  }
+  
+  .star {
+    font-size: 2em;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star,
+  .star.selected,
+  .star.selected ~ .star {
+    color: orange;
+  }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Restaurant Orderir App">
+        <meta name="robots" content="index,follow">
+        <title>Jimmy's Dinner</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,400;1,500;1,700&family=Happy+Monkey&family=Orbitron:wght@400;800&family=Poppins:wght@100&family=Roboto:wght@300;900&family=Smythe&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="container-app" class="container-app">
+            <header>
+                <h1>Jimmy's Dinner</h1>
+                <p>The best burgers and pizzas in town</p>
+            </header>
+            <main>
+                
+                <section id="container-menu" class="container-menu">
+                
+                </section>
+
+                <div id="done-order-modal"  class="done-order-modal">
+                    
+                </div>
+
+                <div id="your-order-modal" class="your-order-modal">
+                    <h3 class="modal-order-title">Your Order</h3>
+                
+                    <div id="order-items">
+                        
+                    </div>
+                
+                    <hr class="modal-line">
+                
+                    <div class="modal-container">
+                        <p class="modal-style-total">Total price</p>
+                        <p id="modal-style-number-total" class="modal-style-number-total"></p>
+                    </div>
+                
+                    <button id="complete-order-btn" class="complete-order-btn">Complete Order</button>
+                </div> 
+
+              
+
+                <div id="pay-modal" class="pay-modal">
+                    <h3 class="pay-modal-title">Enter card details</h3>
+                    <form id="paying-form" class="paying-form">
+                        <input 
+                            type="text" 
+                            class="paying-input"
+                            name="fullName" 
+                            id="fullName" 
+                            placeholder="Enter your name"
+                            aria-label="Enter your name"
+                            required
+                            > <br>
+                        <input 
+                            type="text" 
+                            class="paying-input"
+                            name="CardNumber" 
+                            id="CardNumber" 
+                            placeholder="Enter card number" 
+                            aria-label="Enter card number"
+                            required
+                            > <br>
+                        <input 
+                            type="text" 
+                            class="paying-input"
+                            name="cardCode" 
+                            id="cardCode" 
+                            placeholder="Enter CVV" 
+                            aria-label="Enter CVV"
+                            required
+                            > <br> <br>
+                            <button id="pay-btn" class="pay-btn" type="submit">Pay</button>
+                    </form>
+                </div>
+
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
+
+
+
+      
+
+                    
+
+                        
+
+                   
+
+
